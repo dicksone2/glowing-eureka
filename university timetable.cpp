@@ -1,16 +1,22 @@
+//program name: university timetable
+//author: Barry Dickson
+//description: This program will give you the class schedules at coventry university.
+
 #include <iostream>
 #include<string>
 #include<conio.h>
 
 using namespace std;
 
-string day[7] = { "sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday" };
+string day[7] = { "sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday" }; // an array of the 7 days of the week
 
 int main() {
 
 	string day;
-    cout<<"enter day"<<endl;
+
+    cout<<"enter day"<<endl; // this gets user input to display the inputed data
     cin>> day;
+
 	if (day == "monday") {
 
 		cout << "computer science activity led learning project 2" << endl;
@@ -75,10 +81,12 @@ int main() {
 
     else
         {
-            cout<<"invalid day"<< endl;
+            cout<<"invalid day"<< endl; // if user input doest match any of the above conditions, the user gets another try.
             cout<<"try again"<<endl;
             cin >>day;
-							return 0;
+
+
+    return 0;
 
 						}
 }
