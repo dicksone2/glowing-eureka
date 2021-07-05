@@ -9,7 +9,8 @@ string day[7] = { "sunday", "monday", "tuesday", "wednesday", "thursday", "frida
 int main() {
 
 	string day;
-
+    cout<<"enter day"<<endl;
+    cin>> day;
 	if (day == "monday") {
 
 		cout << "computer science activity led learning project 2" << endl;
@@ -23,9 +24,7 @@ int main() {
 
 	}
 
-	else
-	{
-		if (day == "tuesday") {
+            else if (day == "tuesday") {
 
 			cout << "object oriented programming(OOP)" << endl;
 			cout << "Time: 2:00 pm To 4:00 pm" << endl;
@@ -33,9 +32,7 @@ int main() {
 			cout << "lecture room: online\n" << endl;
 
 		}
-		else
-		{
-			if (day == "wednesday") {
+    else if (day == "wednesday") {
 
 				cout << "computer science activity led learning project 2" << endl;
 				cout << "Time: 10:00 am To 12:00 pm" << endl;
@@ -47,18 +44,14 @@ int main() {
 				cout << "lecture room: online" << endl;
 
 			}
-			else
-			{
-				if (day == "thursday") {
+			else if (day == "thursday") {
 
 					cout << "computer science activity led learning project 2" << endl;
 					cout << "Time: 12:00 pm To 2:00pm" << endl;
 					cout << "lecturer: Simon Billings" << endl;
 					cout << "lecture room: online" << endl;
 				}
-				else
-				{
-					if (day == "friday") {
+    else if(day == "friday") {
 
 						cout << "database systems" << endl;
 						cout << "Time: 10:00 am To 12:00pm" << endl;
@@ -70,27 +63,19 @@ int main() {
 						cout << "lecture room: online" << endl;
 					}
 
-					else
-					{
-						if (day == "saturday") {
+            else if (day == "saturday") {
 
 							cout << "there are no classes today" << endl;
 						}
 
-						else
-						{
-							if (day == "sunday") {
+    else if(day == "sunday") {
 
 								cout << "there are no classes today" << endl;
 							}
+							return 0;
 
 						}
-					}
-				}
-			}
-		}
-		return 0;
-}
+
 
 
 
