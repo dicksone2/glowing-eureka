@@ -75,14 +75,9 @@ int main() {
 
     else
         {
-
-        while (day != "sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday" ){
-
             cout<<"invalid day"<< endl;
             cout<<"try again"<<endl;
             cin >>day;
-
-    }
 							return 0;
 
 						}
